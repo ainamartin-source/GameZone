@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮 RETRO GAMES 🎮</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="title">🎮 RETRO GAMES 🎮</h1>
+            <p class="subtitle">Benvingut al parc de jocs retro</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Games Section -->
+            <section class="games-section">
+                <h2 class="section-title">🕹️ SELECCIONA UN JOC</h2>
+                
+                <div class="games-grid" id="gamesContainer">
+                    <!-- Els jocs s'afegiran aquí dinàmicament -->
+                    <div class="game-card placeholder">
+                        <div class="game-icon">?</div>
+                        <h3>Proximament...</h3>
+                        <p>Afegeix els teus jocs aquí!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Game Display Area -->
+            <section class="game-display" id="gameDisplay" style="display: none;">
+                <button class="back-btn" id="backBtn">← ENRERE</button>
+                <div id="gameContent" class="game-content"></div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2024 RETRO GAMES | Diversió Garantida 🎯</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
